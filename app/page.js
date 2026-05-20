@@ -124,7 +124,26 @@ export default function Home() {
             Werde Teil unserer Gemeinschaft und gestalte mit uns die Zukunft der
             Mobilität!
           </p>
-          <p>Schreibe einfach unter:</p>
+          <div className="divider"></div>
+          <h1 className="!text-2xl mb-3">Stammtisch</h1>
+          <p>
+            Lust auf Austausch bei einem Getränk? Wir treffen uns regelmäßig
+            zum Stammtisch – jeden 2. Freitag im Monat ab 19:30 Uhr im
+            Kulturbahnhof (KuBa) Hersbruck. Ob Fragen, Ideen oder einfach gute
+            Gespräche: Komm einfach vorbei, wir freuen uns auf Dich!
+          </p>
+          <p>
+            <a
+              href="https://kulturbahnhof-hersbruck.de/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-info"
+            >
+              kulturbahnhof-hersbruck.de
+            </a>
+          </p>
+
+          <p className="mt-4">Oder schreib uns einfach:</p>
           <p className="flex">
             <FaEnvelope className="me-3" />
             <a className="link-info" href="mailto:{data.EMAIL_ADDR}">
