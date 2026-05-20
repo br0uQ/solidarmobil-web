@@ -128,19 +128,17 @@ export default function Home() {
           <h1 className="!text-2xl mb-3">Stammtisch</h1>
           <p>
             Lust auf Austausch bei einem Getränk? Wir treffen uns regelmäßig
-            zum Stammtisch – jeden 2. Freitag im Monat ab 19:30 Uhr im
-            Kulturbahnhof (KuBa) Hersbruck. Ob Fragen, Ideen oder einfach gute
-            Gespräche: Komm einfach vorbei, wir freuen uns auf Dich!
-          </p>
-          <p>
+            zum Stammtisch – jeden 2. Freitag im Monat ab 19:30 Uhr im{" "}
             <a
               href="https://kulturbahnhof-hersbruck.de/"
               target="_blank"
               rel="noopener noreferrer"
               className="link-info"
             >
-              kulturbahnhof-hersbruck.de
+              Kulturbahnhof (KuBa) Hersbruck
             </a>
+            . Ob Fragen, Ideen oder einfach gute Gespräche: Komm einfach vorbei,
+            wir freuen uns auf Dich!
           </p>
 
           <p className="mt-4">Oder schreib uns einfach:</p>
